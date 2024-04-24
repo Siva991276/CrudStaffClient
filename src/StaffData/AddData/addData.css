@@ -1,0 +1,47 @@
+.Formcontroller {
+  width: 30%;
+  background-color: white;
+  padding: 50px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.065);
+}
+.formSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 4px;
+}
+.formSection label{
+    font-weight: 300;
+    margin: 2px;
+    font-size: 20px;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+.formSection input{
+    padding: 8px;
+    outline: none;
+    font-size: 20px;
+}
+.formSection .addbutton{
+    background-color: purple;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+.backsecionbtn{
+    background-color: purple;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 900;
+}
+
